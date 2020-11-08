@@ -1,0 +1,13 @@
+name: SpigotPlugin
+version: ${project.version}
+main: github.minecraftdevlearning.src.spigotplugin.SpigotPlugin
+api-version: 1.16
+authors: [ Therkelsen ]
+description: First test Spigot Plugin
+website: https://github.com/Therkelsen
+
+commands:
+  kit:
+    description: Kit command gives single diamond and 20 bricks.
+    usage: /kit
+    permission:
