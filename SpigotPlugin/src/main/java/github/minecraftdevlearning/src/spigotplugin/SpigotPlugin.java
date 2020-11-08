@@ -19,5 +19,6 @@ public final class SpigotPlugin extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         System.out.println("Plugin stopped");
+
     }
 }

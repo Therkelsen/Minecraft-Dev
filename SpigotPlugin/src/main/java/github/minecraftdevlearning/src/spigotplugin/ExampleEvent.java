@@ -6,9 +6,7 @@ import org.bukkit.event.HandlerList;
 
 
 public class ExampleEvent extends Event {
-
     private final String playerName;
-
     private boolean isCancelled;
 
     public ExampleEvent(String playerName) {
@@ -33,5 +31,4 @@ public class ExampleEvent extends Event {
     public static HandlerList getHandlerList() {
         return HANDLERS;
     }
-
 }
